@@ -1,0 +1,71 @@
+/* some possible colorhunt.co palletes:
+
+https://colorhunt.co/palette/2c33332e4f4f0e8388cbe4de
+https://colorhunt.co/palette/635985443c6839305318122b
+
+*/
+
+* {
+  /* add the raleway font imported from Google fonts and apply it to all text int he webpage */
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: #cbe4de;
+}
+
+h1 {
+  color: #0e8388;
+
+  position: relative;
+}
+
+h2 {
+  color: #0e8388;
+}
+
+h6 {
+  color: #0e8388;
+  font-size: 0.8rem;
+}
+
+a {
+  color: #0e8388;
+  text-decoration: none;
+}
+
+p {
+  color: #2c3333;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+}
+
+.headerContainer {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectContainer {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footerContainer {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
