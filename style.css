@@ -71,7 +71,7 @@ p {
 }
 
 /* Adapting the project container for mobile */
-@media (max-width: 500px) {
+@media (max-width: 720px) {
   .projectContainer {
     text-align: center;
     display: flex;
