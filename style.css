@@ -69,3 +69,15 @@ p {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* Adapting the project container for mobile */
+@media (max-width: 412px) {
+  .projectContainer {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
