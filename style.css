@@ -57,7 +57,7 @@ p {
 .projectContainer {
   text-align: center;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 1rem;
