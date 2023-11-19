@@ -41,6 +41,11 @@ a {
 
 p {
   color: #2c3333;
+  max-width: 200px;
+}
+
+.projectImage {
+  width: 200px;
 }
 
 .mainContainer {
