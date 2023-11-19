@@ -86,4 +86,7 @@ p {
     align-items: center;
     gap: 1rem;
   }
+    .projectImage {
+    max-width: 200px;
+  }
 }
